@@ -386,7 +386,7 @@ def task_statu(task_id):
     with task_lock:
         if task_id not in tasks:
             return jsonify({'error': 'Invalid task ID'}), 404
-
+        task_id = task_id.strip()
         task_info = tasks[task_id]
         return jsonify({
             'status': task_info['status'],
