@@ -398,7 +398,7 @@ def task_statu(task_id):
 @app.route('/download_logs/<task_id>', methods=['GET'])
 def download_logs(task_id):
     try:
-        return send_from_directory(directory='.', path=f'{task_id}_logs.json', as_attachment=False)
+        return send_from_directory(directory='uploads', path=f'failed_orders_{task_id}.csv', as_attachment=True)
     except FileNotFoundError:
         return jsonify({'status': 'error', 'message': 'File not found'}), 404
 
