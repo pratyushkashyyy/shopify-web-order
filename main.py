@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, render_template, redirect, url_for
+from flask import Flask, request, jsonify, render_template, redirect, url_for, session
 import csv
 import requests
 import os
@@ -10,10 +10,13 @@ import uuid
 from logging import StreamHandler
 from flask import send_from_directory
 from datetime import datetime
+from functools import wraps
+
 
 from variant_id import fetch_variant_id, extract_store_url_from_link
 
 app = Flask(__name__)
+app.secret_key = "securet_is_key"
 
 # Configuration
 UPLOAD_FOLDER = 'uploads'
@@ -46,6 +49,33 @@ headers = {
 # In-memory storage for background task statuses
 tasks = {}
 task_lock = Lock()
+
+def login_required(f):
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        if 'username' not in session:
+            return redirect(url_for('login'))
+        return f(*args, **kwargs)
+    return decorated_function
+
+
+@app.route('/login', methods=["POST", "GET"])
+def login():
+    if request.method == "POST":
+        phone = request.form['username']
+        password = request.form['password']
+
+        # Simple login check (you might replace this with real validation)
+        if phone == "admin" and password == "password":
+            session['username'] = phone
+            return redirect(url_for('dashboard'))
+        else:
+            # Render the login page again with an error message
+            return render_template("login.html", error="Invalid username or password")
+
+    # For GET request, render the login page
+    return render_template("login.html")
+
 
 def load_csv_data(csv_file_path):
     """Read and process the CSV file."""
@@ -263,6 +293,7 @@ def process_order_with_sleep(entry, variant_id, store_url, task_id, sleep_time):
 
 
 @app.route('/cancel_task/<task_id>', methods=['GET'])
+@login_required
 def cancel_task(task_id):
     """Cancel a running task."""
     with task_lock:
@@ -296,6 +327,7 @@ def calculate_sleep_time(start_time, end_time, num_requests):
 
 
 @app.route('/process_orders', methods=['POST'])
+@login_required
 def process_orders():
     """Handle CSV file upload and process orders in the background."""
     try:
@@ -377,6 +409,7 @@ def process_orders():
 
 
 @app.route('/task_status/<task_id>', methods=['GET'])
+@login_required
 def task_status(task_id):
     """Get the status and results of a background task."""
     task = tasks.get(task_id)
@@ -385,6 +418,7 @@ def task_status(task_id):
     return jsonify(task), 200
 
 @app.route('/status/<task_id>', methods=['GET'])
+@login_required
 def task_statu(task_id):
     """Get the status and logs of the background task."""
     with task_lock:
@@ -400,6 +434,7 @@ def task_statu(task_id):
 
 
 @app.route('/download_logs/<task_id>', methods=['GET'])
+@login_required
 def download_logs(task_id):
     try:
         return send_from_directory(directory='uploads', path=f'failed_orders_{task_id}.csv', as_attachment=True)
@@ -408,7 +443,8 @@ def download_logs(task_id):
 
 
 @app.route('/')
-def index():
+@login_required
+def dashboard():
     """Render the main upload form page and display running tasks."""
     running_tasks = {task_id: task for task_id, task in tasks.items() if task['status'] == 'Running'}
     completed_tasks = {task_id: task for task_id, task in tasks.items() if task['status'] == 'Completed'}
