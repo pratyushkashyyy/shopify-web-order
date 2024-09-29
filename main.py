@@ -41,10 +41,7 @@ SHOPIFY_API_KEY = "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"
 SHOPIFY_STORE_URL = "3908a9-4f.myshopify.com"
 SHOPIFY_VARIANT_ID = "46067649904854"
 
-headers = {
-    'X-Shopify-Access-Token': SHOPIFY_API_KEY,
-    'Content-Type': 'application/json',
-}
+
 
 # In-memory storage for background task statuses
 tasks = {}
@@ -123,9 +120,13 @@ def split_name(full_name):
 #     logging.warning(f"Invalid phone number format: {phone_number}")
 #     return None
 
-def process_order(entry, variant_id, store_url, task_id):
+def process_order(entry, variant_id, store_url, task_id, store_api):
     """Process each order and send data to Shopify."""
     try:
+        headers = {
+    'X-Shopify-Access-Token': store_api,
+    'Content-Type': 'application/json',
+}
         firstname, lastname = split_name(entry['name'])
         phone = entry['phone_number']
         # if not phone:
@@ -235,13 +236,13 @@ def save_failed_orders(task_id, failed_orders):
         for order in failed_orders:
             writer.writerow(order)
 
-def run_threads(processed_data, variant_id, store_url, task_id, max_threads=MAX_THREADS):
+def run_threads(processed_data, variant_id, store_url, task_id, store_api, max_threads=MAX_THREADS):
     """Process orders using a thread pool."""
     failed_orders = []
     task = tasks[task_id]
     sleep_time = task.get('sleep_time', 0)
     with ThreadPoolExecutor(max_workers=max_threads) as executor:
-        future_to_order = {executor.submit(process_order_with_sleep, entry, variant_id, store_url, task_id, sleep_time): entry for entry in processed_data}
+        future_to_order = {executor.submit(process_order_with_sleep, entry, variant_id, store_url, task_id, sleep_time, store_api): entry for entry in processed_data}
         for future in as_completed(future_to_order):
             entry = future_to_order[future]
             try:
@@ -275,7 +276,7 @@ def run_threads(processed_data, variant_id, store_url, task_id, max_threads=MAX_
 #         return {'status': 'error', 'reason': str(e)}
 
 
-def process_order_with_sleep(entry, variant_id, store_url, task_id, sleep_time):
+def process_order_with_sleep(entry, variant_id, store_url, task_id, sleep_time, store_api):
     """Process each order with a delay between requests and check for cancellation."""
     import time
     try:
@@ -286,7 +287,7 @@ def process_order_with_sleep(entry, variant_id, store_url, task_id, sleep_time):
                 logging.info(f"Task {task_id} has been canceled. Skipping order.")
                 return {'status': 'cancelled'}
 
-        return process_order(entry, variant_id, store_url, task_id)
+        return process_order(entry, variant_id, store_url, task_id, store_api)
     except Exception as e:
         logging.error(f"Exception in processing order: {e}")
         return {'status': 'error', 'reason': str(e)}
@@ -399,7 +400,7 @@ def process_orders():
             }
 
         executor = ThreadPoolExecutor(max_workers=1)
-        executor.submit(run_threads, processed_data, variant_id, store_url, task_id, max_threads=1)
+        executor.submit(run_threads, processed_data, variant_id, store_url, task_id, store_api,  max_threads=1)
         return jsonify({'task_id': task_id, 'message': 'Order processing started'}), 202
 
     except Exception as e:
