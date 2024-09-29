@@ -3,24 +3,20 @@ import requests
 
 def fetch_variant_id(product_link):
     try:
-        product_handle = extract_product_handle_from_link(product_link)
-        if not product_handle:
-            print("Error: Could not extract product handle from the link.")
-            return
-
-        url = f'https://solkart.in/products/{product_handle}.json'
-        print(f"Fetching data from: {url}")
+        
+        url = f'{product_link}.json'
+        # print(f"Fetching data from: {url}")
         
         response = requests.get(url)
         
         if response.status_code == 200:
             data = response.json()
-            print("Data retrieved successfully.")
+            # print("Data retrieved successfully.")
             variants = data.get('product', {}).get('variants', [])
             
             if variants:
                 variant_id = variants[0].get('id')
-                print(f"Fetched Variant ID: {variant_id}")
+                return(f"{variant_id}")
             else:
                 print("Error: No variants found for the product.")
         else:
@@ -29,10 +25,14 @@ def fetch_variant_id(product_link):
     except Exception as e:
         print(f"Error fetching variant ID: {e}")
 
-def extract_product_handle_from_link(product_link):
-    match = re.search(r'/products/([^/?]+)', product_link)
+def extract_store_url_from_link(product_link):
+    match = re.search(r'https?://([^/]+)/', product_link)
     return match.group(1) if match else None
 
-link = "https://solkart.in/products/automatic-plants-water-system-with-adjustable-control-valve-switch"
 
-fetch_variant_id(link)
+
+link = "https://3908a9-4f.myshopify.com/products/hrx-by-hrithik-roshan"
+
+# store_url = extract_store_url_from_link(link)
+# print(store_url)  # Output: 3908a9-4f.myshopify.com
+# print(fetch_variant_id(link))

@@ -11,6 +11,7 @@ from logging import StreamHandler
 from flask import send_from_directory
 from datetime import datetime
 
+from variant_id import fetch_variant_id, extract_store_url_from_link
 
 app = Flask(__name__)
 
@@ -78,30 +79,30 @@ def split_name(full_name):
     lastname = " ".join(parts[1:]) if len(parts) > 1 else ""
     return firstname, lastname
 
-def format_phone_number(phone_number):
-    """Validate and format phone number."""
-    phone_number = phone_number.replace(" ", "").replace("-", "")
-    if len(phone_number) == 10 and phone_number.isdigit():
-        return phone_number
-    elif phone_number.startswith("+91"):
-        phone_number = phone_number.replace("+91", "")
-        while len(phone_number) > 10 and phone_number.startswith("91"):
-            phone_number = phone_number[2:]
-        if len(phone_number) == 10 and phone_number.isdigit():
-            return phone_number
-    logging.warning(f"Invalid phone number format: {phone_number}")
-    return None
+# def format_phone_number(phone_number):
+#     """Validate and format phone number."""
+#     phone_number = phone_number.replace(" ", "").replace("-", "")
+#     if len(phone_number) == 10 and phone_number.isdigit():
+#         return phone_number
+#     elif phone_number.startswith("+91"):
+#         phone_number = phone_number.replace("+91", "")
+#         while len(phone_number) > 10 and phone_number.startswith("91"):
+#             phone_number = phone_number[2:]
+#         if len(phone_number) == 10 and phone_number.isdigit():
+#             return phone_number
+#     logging.warning(f"Invalid phone number format: {phone_number}")
+#     return None
 
 def process_order(entry, variant_id, store_url, task_id):
     """Process each order and send data to Shopify."""
     try:
         firstname, lastname = split_name(entry['name'])
-        phone = format_phone_number(entry['phone_number'])
-        if not phone:
-            logging.warning(f"Skipping order due to invalid phone number: {entry['phone_number']}")
-            with task_lock:
-                tasks[task_id]['skipped_orders'].append(entry)
-            return {'status': 'skipped', 'reason': 'Invalid phone number'}
+        phone = entry['phone_number']
+        # if not phone:
+        #     logging.warning(f"Skipping order due to invalid phone number: {entry['phone_number']}")
+        #     with task_lock:
+        #         tasks[task_id]['skipped_orders'].append(entry)
+        #     return {'status': 'skipped', 'reason': 'Invalid phone number'}
 
         json_data = {
             'order': {
@@ -313,12 +314,15 @@ def process_orders():
         csv_file.save(file_path)
         logging.info(f"File saved to {file_path}")
 
-        variant_id = request.form.get('variant_id', SHOPIFY_VARIANT_ID)
+        product_url = request.form.get('product_url') 
+
+        variant_id = request.form.get('variant_id') or fetch_variant_id(product_url)
         if not variant_id:
             return jsonify({'error': 'Variant ID not provided'}), 400
 
-        store_url = request.form.get('store_url') or SHOPIFY_STORE_URL
-        store_api = request.form.get('store_api') or SHOPIFY_API_KEY
+        store_url = extract_store_url_from_link(product_url)
+
+        store_api = request.form.get('store_api')
 
         end_time_str = request.form.get('end_time')
 
