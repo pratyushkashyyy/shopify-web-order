@@ -13,7 +13,7 @@ from datetime import datetime
 from functools import wraps
 
 
-from variant_id import fetch_variant_id, extract_store_url_from_link
+from variant_id import fetch_variant_id, extract_store_url_from_link, fetch_store_url
 
 app = Flask(__name__)
 app.secret_key = "securet_is_key"
@@ -37,9 +37,9 @@ logging.basicConfig(
 )
 
 # Load sensitive information from environment variables
-SHOPIFY_API_KEY = "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"
-SHOPIFY_STORE_URL = "3908a9-4f.myshopify.com"
-SHOPIFY_VARIANT_ID = "46067649904854"
+# SHOPIFY_API_KEY = "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"   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
+# SHOPIFY_STORE_URL = "3908a9-4f.myshopify.com"
+# SHOPIFY_VARIANT_ID = "46067649904854"
 
 
 
@@ -353,12 +353,12 @@ def process_orders():
         if not variant_id:
             return jsonify({'error': 'Variant ID not provided'}), 400
 
-        store_url = extract_store_url_from_link(product_url)
-
+        store_url = fetch_store_url(product_url)
+        print(store_url)
         store_api = request.form.get('store_api')
-
+        print(store_api)
         end_time_str = request.form.get('end_time')
-
+        print(variant_id)
         try:
             start_time = datetime.now()
             if not end_time_str:
