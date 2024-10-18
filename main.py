@@ -21,7 +21,7 @@ app.secret_key = "securet_is_key"
 # Configuration
 UPLOAD_FOLDER = 'uploads'
 ALLOWED_EXTENSIONS = {'csv'}
-MAX_THREADS = 1
+MAX_THREADS = 5
 
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
@@ -82,15 +82,15 @@ def load_csv_data(csv_file_path):
             csv_reader = csv.DictReader(csvfile)
             for row in csv_reader:
                 data = {
-                    'name': row.get('Shipping Name', '').strip() or row.get('Biling Name', '').strip(),
-                    'address1': row.get('Shipping Address1', '').strip() or row.get('Billing Address1', '').strip(),
-                    'address2': row.get('Shipping Address2', '').strip() or row.get('Billing Address2', '').strip(),
-                    'pincode': row.get('Shipping Zip', '').strip() or row.get('Billing Zip', '').strip(),
-                    'city': row.get('Shipping City', '').strip() or row.get('Billing City', '').strip(),
-                    'state': row.get('Shipping Province', '').strip() or row.get('Billing Province', '').strip(),
-                    'phone_number': row.get('Shipping Phone', '').strip() or row.get('Billing Phone', '').strip(),
-                    'product_id': row.get('Lineitem sku', '').strip(),
-                    'quantity': row.get('Lineitem quantity', '').strip()
+                    'name': row.get('Shipping Name').strip() or row.get('Billing Name', '').strip(),
+                    'address1': row.get('Shipping Address1').strip() or row.get('Billing Address1', '').strip(),
+                    'address2': row.get('Shipping Address2').strip() or row.get('Billing Address2', '').strip(),
+                    'pincode': row.get('Shipping Zip').strip() or row.get('Billing Zip', '').strip(),
+                    'city': row.get('Shipping City').strip() or row.get('Billing City', '').strip(),
+                    'state': row.get('Shipping Province').strip() or row.get('Billing Province', '').strip(),
+                    'phone_number': row.get('Shipping Phone').strip() or row.get('Billing Phone', '').strip(),
+                    'product_id': row.get('Lineitem sku').strip(),
+                    'quantity': row.get('Lineitem quantity').strip()
                 }
                 processed_data.append(data)
         logging.info(f"Loaded {len(processed_data)} records from {csv_file_path}")
@@ -123,10 +123,14 @@ def split_name(full_name):
 def process_order(entry, variant_id, store_url, task_id, store_api):
     """Process each order and send data to Shopify."""
     try:
-        headers = {
+        session = requests.Session()
+        session.headers.update({
     'X-Shopify-Access-Token': store_api,
     'Content-Type': 'application/json',
-}
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.1.2222.33 Safari/537.36",
+    "Accept-Encoding": "*",
+    "Connection": "keep-alive"
+})
         firstname, lastname = split_name(entry['name'])
         phone = entry['phone_number']
         # if not phone:
@@ -162,7 +166,7 @@ def process_order(entry, variant_id, store_url, task_id, store_api):
             },
         }
 
-        response = requests.post(
+        response = session.post(
             f'https://{store_url}/admin/api/2024-01/orders.json',
             headers=headers,
             json=json_data,

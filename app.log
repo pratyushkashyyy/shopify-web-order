@@ -1,0 +1,1104 @@
+2024-10-05 05:45:56,271 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.0.102:8000
+2024-10-05 05:45:56,271 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2024-10-05 05:45:56,274 INFO werkzeug MainThread :  * Restarting with stat
+2024-10-05 05:45:56,793 WARNING werkzeug MainThread :  * Debugger is active!
+2024-10-05 05:45:56,794 INFO werkzeug MainThread :  * Debugger PIN: 107-546-318
+2024-10-05 05:46:01,680 INFO werkzeug Thread-2 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 05:46:01] "[32mGET / HTTP/1.1[0m" 302 -
+2024-10-05 05:46:01,688 INFO werkzeug Thread-3 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 05:46:01] "GET /login HTTP/1.1" 200 -
+2024-10-05 05:46:02,412 INFO werkzeug Thread-4 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 05:46:02] "[33mGET /static/css/admin_login.css HTTP/1.1[0m" 404 -
+2024-10-05 05:46:02,476 INFO werkzeug Thread-5 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 05:46:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-05 05:46:07,487 INFO werkzeug Thread-6 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 05:46:07] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-10-05 05:46:07,495 INFO werkzeug Thread-7 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 05:46:07] "GET / HTTP/1.1" 200 -
+2024-10-05 05:46:25,311 INFO root Thread-8 (process_request_thread) : File saved to uploads/3423_Shampoo.csv
+2024-10-05 05:46:26,198 INFO root Thread-8 (process_request_thread) : Loaded 3423 records from uploads/3423_Shampoo.csv
+2024-10-05 05:46:26,213 INFO werkzeug Thread-8 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 05:46:26] "[35m[1mPOST /process_orders HTTP/1.1[0m" 202 -
+2024-10-05 05:46:27,879 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125196378388
+2024-10-05 05:46:28,494 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125196378388
+2024-10-05 05:46:29,067 INFO werkzeug Thread-9 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 05:46:29] "GET / HTTP/1.1" 200 -
+2024-10-05 05:46:29,578 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125196411156
+2024-10-05 05:46:30,139 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125196411156
+2024-10-05 05:46:31,324 INFO werkzeug Thread-10 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 05:46:31] "GET /task_status/7bb28e31-291e-4b46-9814-387e38091421 HTTP/1.1" 200 -
+2024-10-05 05:46:31,479 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125196443924
+2024-10-05 05:46:32,178 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125196443924
+2024-10-05 05:46:32,780 INFO werkzeug Thread-11 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 05:46:32] "GET /task_status/7bb28e31-291e-4b46-9814-387e38091421 HTTP/1.1" 200 -
+2024-10-05 05:46:33,280 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125196509460
+2024-10-05 05:46:33,306 INFO werkzeug Thread-12 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 05:46:33] "GET /task_status/7bb28e31-291e-4b46-9814-387e38091421 HTTP/1.1" 200 -
+2024-10-05 05:46:33,562 INFO werkzeug Thread-13 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 05:46:33] "GET /task_status/7bb28e31-291e-4b46-9814-387e38091421 HTTP/1.1" 200 -
+2024-10-05 05:46:33,828 INFO werkzeug Thread-14 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 05:46:33] "GET /task_status/7bb28e31-291e-4b46-9814-387e38091421 HTTP/1.1" 200 -
+2024-10-05 05:46:33,918 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125196509460
+2024-10-05 05:46:34,303 INFO werkzeug Thread-15 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 05:46:34] "GET /task_status/7bb28e31-291e-4b46-9814-387e38091421 HTTP/1.1" 200 -
+2024-10-05 05:46:34,521 INFO werkzeug Thread-16 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 05:46:34] "GET /task_status/7bb28e31-291e-4b46-9814-387e38091421 HTTP/1.1" 200 -
+2024-10-05 05:46:34,717 INFO werkzeug Thread-17 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 05:46:34] "GET /task_status/7bb28e31-291e-4b46-9814-387e38091421 HTTP/1.1" 200 -
+2024-10-05 05:46:34,959 INFO werkzeug Thread-18 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 05:46:34] "GET /task_status/7bb28e31-291e-4b46-9814-387e38091421 HTTP/1.1" 200 -
+2024-10-05 05:46:35,147 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125196542228
+2024-10-05 05:46:35,175 INFO werkzeug Thread-19 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 05:46:35] "GET /task_status/7bb28e31-291e-4b46-9814-387e38091421 HTTP/1.1" 200 -
+2024-10-05 05:46:35,397 INFO werkzeug Thread-20 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 05:46:35] "GET /task_status/7bb28e31-291e-4b46-9814-387e38091421 HTTP/1.1" 200 -
+2024-10-05 05:46:35,609 INFO werkzeug Thread-21 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 05:46:35] "GET /task_status/7bb28e31-291e-4b46-9814-387e38091421 HTTP/1.1" 200 -
+2024-10-05 05:46:35,805 INFO werkzeug Thread-22 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 05:46:35] "GET /task_status/7bb28e31-291e-4b46-9814-387e38091421 HTTP/1.1" 200 -
+2024-10-05 05:46:35,966 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125196542228
+2024-10-05 05:46:36,024 INFO werkzeug Thread-23 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 05:46:36] "GET /task_status/7bb28e31-291e-4b46-9814-387e38091421 HTTP/1.1" 200 -
+2024-10-05 05:46:37,197 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125196574996
+2024-10-05 05:46:37,830 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125196574996
+2024-10-05 05:46:39,048 INFO werkzeug Thread-24 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 05:46:39] "GET / HTTP/1.1" 200 -
+2024-10-05 05:46:39,141 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125196640532
+2024-10-05 05:46:39,857 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125196640532
+2024-10-05 05:46:41,191 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125196673300
+2024-10-05 05:46:41,907 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125196673300
+2024-10-05 05:46:42,929 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125196706068
+2024-10-05 05:46:44,058 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125196706068
+2024-10-05 05:47:12,859 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.0.102:8000
+2024-10-05 05:47:12,859 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2024-10-05 05:47:12,861 INFO werkzeug MainThread :  * Restarting with stat
+2024-10-05 05:47:13,368 WARNING werkzeug MainThread :  * Debugger is active!
+2024-10-05 05:47:13,368 INFO werkzeug MainThread :  * Debugger PIN: 107-546-318
+2024-10-05 05:47:25,366 INFO root Thread-2 (process_request_thread) : File saved to uploads/3423_Shampoo.csv
+2024-10-05 05:47:25,948 INFO root Thread-2 (process_request_thread) : Loaded 3423 records from uploads/3423_Shampoo.csv
+2024-10-05 05:47:25,954 INFO werkzeug Thread-2 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 05:47:25] "[35m[1mPOST /process_orders HTTP/1.1[0m" 202 -
+2024-10-05 05:47:27,279 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125197525268
+2024-10-05 05:47:27,990 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125197525268
+2024-10-05 05:47:28,804 INFO werkzeug Thread-3 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 05:47:28] "GET / HTTP/1.1" 200 -
+2024-10-05 05:47:29,527 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125197656340
+2024-10-05 05:47:30,446 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125197656340
+2024-10-05 05:47:30,915 INFO werkzeug Thread-4 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 05:47:30] "GET /task_status/9a54d496-e27b-4f6b-afce-88d3c2718717 HTTP/1.1" 200 -
+2024-10-05 05:47:31,778 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125197754644
+2024-10-05 05:47:32,179 INFO werkzeug Thread-5 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 05:47:32] "GET /task_status/9a54d496-e27b-4f6b-afce-88d3c2718717 HTTP/1.1" 200 -
+2024-10-05 05:47:32,566 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125197754644
+2024-10-05 05:47:33,184 INFO werkzeug Thread-6 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 05:47:33] "GET /task_status/9a54d496-e27b-4f6b-afce-88d3c2718717 HTTP/1.1" 200 -
+2024-10-05 05:47:33,684 INFO werkzeug Thread-7 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 05:47:33] "GET /task_status/9a54d496-e27b-4f6b-afce-88d3c2718717 HTTP/1.1" 200 -
+2024-10-05 05:47:33,728 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125197852948
+2024-10-05 05:47:34,039 INFO werkzeug Thread-8 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 05:47:34] "GET /task_status/9a54d496-e27b-4f6b-afce-88d3c2718717 HTTP/1.1" 200 -
+2024-10-05 05:47:34,372 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125197852948
+2024-10-05 05:47:34,758 INFO werkzeug Thread-9 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 05:47:34] "GET /task_status/9a54d496-e27b-4f6b-afce-88d3c2718717 HTTP/1.1" 200 -
+2024-10-05 05:47:35,060 INFO werkzeug Thread-10 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 05:47:35] "GET /task_status/9a54d496-e27b-4f6b-afce-88d3c2718717 HTTP/1.1" 200 -
+2024-10-05 05:47:35,450 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125197918484
+2024-10-05 05:47:36,865 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125197918484
+2024-10-05 05:47:38,025 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125197951252
+2024-10-05 05:47:38,637 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125197951252
+2024-10-05 05:47:39,969 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125197984020
+2024-10-05 05:47:40,686 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125197984020
+2024-10-05 05:47:42,017 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125198082324
+2024-10-05 05:47:42,632 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125198082324
+2024-10-05 05:47:43,860 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125198180628
+2024-10-05 05:47:44,578 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125198180628
+2024-10-05 05:47:45,809 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125198246164
+2024-10-05 05:47:46,680 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125198246164
+2024-10-05 05:47:47,814 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125198311700
+2024-10-05 05:47:48,429 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125198311700
+2024-10-05 05:47:49,527 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125198344468
+2024-10-05 05:47:50,208 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125198344468
+2024-10-05 05:47:51,370 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125198377236
+2024-10-05 05:47:52,051 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125198377236
+2024-10-05 05:47:53,179 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125198442772
+2024-10-05 05:47:53,674 INFO werkzeug Thread-11 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 05:47:53] "GET /task_status/9a54d496-e27b-4f6b-afce-88d3c2718717 HTTP/1.1" 200 -
+2024-10-05 05:47:54,715 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125198442772
+2024-10-05 05:47:55,848 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125198508308
+2024-10-05 05:47:56,557 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125198508308
+2024-10-05 05:47:58,401 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125198573844
+2024-10-05 05:47:59,118 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125198573844
+2024-10-05 05:48:00,453 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125198639380
+2024-10-05 05:48:01,184 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125198639380
+2024-10-05 05:48:02,192 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125198704916
+2024-10-05 05:48:02,903 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125198704916
+2024-10-05 05:48:04,052 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125198737684
+2024-10-05 05:48:05,570 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125198737684
+2024-10-05 05:48:06,749 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125198770452
+2024-10-05 05:48:07,353 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125198770452
+2024-10-05 05:48:08,436 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125198803220
+2024-10-05 05:48:09,052 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125198803220
+2024-10-05 05:48:10,179 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125198835988
+2024-10-05 05:48:10,893 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125198835988
+2024-10-05 05:48:12,022 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125198901524
+2024-10-05 05:48:13,407 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125198901524
+2024-10-05 05:48:14,473 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125198967060
+2024-10-05 05:48:15,039 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125198967060
+2024-10-05 05:48:16,293 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125199032596
+2024-10-05 05:48:17,076 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125199032596
+2024-10-05 05:48:18,092 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125199065364
+2024-10-05 05:48:18,764 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125199065364
+2024-10-05 05:48:19,973 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125199098132
+2024-10-05 05:48:20,611 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125199098132
+2024-10-05 05:48:21,900 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125199130900
+2024-10-05 05:48:22,510 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125199130900
+2024-10-05 05:48:23,629 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125199163668
+2024-10-05 05:48:24,275 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125199163668
+2024-10-05 05:48:25,601 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125199196436
+2024-10-05 05:48:26,215 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125199196436
+2024-10-05 05:48:27,246 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125199229204
+2024-10-05 05:48:27,900 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125199229204
+2024-10-05 05:48:28,997 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125199294740
+2024-10-05 05:48:29,588 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125199294740
+2024-10-05 05:48:31,447 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125199360276
+2024-10-05 05:48:32,094 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125199360276
+2024-10-05 05:48:33,195 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125199393044
+2024-10-05 05:48:33,960 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125199393044
+2024-10-05 05:48:35,368 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125199458580
+2024-10-05 05:48:36,084 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125199458580
+2024-10-05 05:48:37,974 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125199589652
+2024-10-05 05:48:38,561 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125199589652
+2024-10-05 05:48:39,681 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125199655188
+2024-10-05 05:48:40,385 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125199655188
+2024-10-05 05:48:41,819 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125199687956
+2024-10-05 05:48:42,528 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125199687956
+2024-10-05 05:48:43,809 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125199753492
+2024-10-05 05:48:44,398 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125199753492
+2024-10-05 05:48:45,550 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125199819028
+2024-10-05 05:48:46,339 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125199819028
+2024-10-05 05:48:47,450 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125199884564
+2024-10-05 05:48:48,167 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125199884564
+2024-10-05 05:48:49,498 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125199950100
+2024-10-05 05:48:50,214 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125199950100
+2024-10-05 05:48:52,674 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125200113940
+2024-10-05 05:48:53,390 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125200113940
+2024-10-05 05:48:54,495 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125200212244
+2024-10-05 05:48:55,144 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125200212244
+2024-10-05 05:48:56,363 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125200245012
+2024-10-05 05:48:57,028 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125200245012
+2024-10-05 05:48:58,017 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125200310548
+2024-10-05 05:48:58,615 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125200310548
+2024-10-05 05:48:59,819 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125200343316
+2024-10-05 05:49:00,455 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125200343316
+2024-10-05 05:49:01,667 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125200376084
+2024-10-05 05:49:02,313 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125200376084
+2024-10-05 05:49:03,416 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125200441620
+2024-10-05 05:49:04,046 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125200441620
+2024-10-05 05:49:05,119 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125200539924
+2024-10-05 05:49:05,715 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125200539924
+2024-10-05 05:49:06,896 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125200605460
+2024-10-05 05:49:07,578 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125200605460
+2024-10-05 05:49:08,754 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125200670996
+2024-10-05 05:49:09,389 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125200670996
+2024-10-05 05:49:10,534 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125200736532
+2024-10-05 05:49:11,137 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125200736532
+2024-10-05 05:49:12,236 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125200834836
+2024-10-05 05:49:12,991 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125200834836
+2024-10-05 05:49:14,146 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125200933140
+2024-10-05 05:49:14,832 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125200933140
+2024-10-05 05:49:15,897 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125200998676
+2024-10-05 05:49:16,534 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125200998676
+2024-10-05 05:49:17,870 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125201064212
+2024-10-05 05:49:18,496 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125201064212
+2024-10-05 05:49:19,608 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125201129748
+2024-10-05 05:49:20,323 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125201129748
+2024-10-05 05:49:21,654 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125201228052
+2024-10-05 05:49:22,282 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125201228052
+2024-10-05 05:49:23,498 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125201326356
+2024-10-05 05:49:24,214 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125201326356
+2024-10-05 05:49:25,343 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125201359124
+2024-10-05 05:49:25,955 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125201359124
+2024-10-05 05:49:27,103 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125201424660
+2024-10-05 05:49:27,693 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125201424660
+2024-10-05 05:49:28,786 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125201555732
+2024-10-05 05:49:29,424 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125201555732
+2024-10-05 05:49:30,544 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125201588500
+2024-10-05 05:49:31,141 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125201588500
+2024-10-05 05:49:32,325 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125201621268
+2024-10-05 05:49:32,916 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125201621268
+2024-10-05 05:49:33,991 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125201686804
+2024-10-05 05:49:34,630 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125201686804
+2024-10-05 05:49:35,753 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125201719572
+2024-10-05 05:49:36,376 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125201719572
+2024-10-05 05:49:37,513 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125201752340
+2024-10-05 05:49:38,120 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125201752340
+2024-10-05 05:49:39,405 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125201817876
+2024-10-05 05:49:40,060 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125201817876
+2024-10-05 05:49:41,107 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125201850644
+2024-10-05 05:49:41,849 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125201850644
+2024-10-05 05:49:43,061 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125201916180
+2024-10-05 05:49:43,743 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125201916180
+2024-10-05 05:49:44,809 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125201981716
+2024-10-05 05:49:45,437 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125201981716
+2024-10-05 05:49:46,943 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125202047252
+2024-10-05 05:49:47,580 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125202047252
+2024-10-05 05:49:48,636 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125202145556
+2024-10-05 05:49:49,230 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125202145556
+2024-10-05 05:49:50,272 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125202243860
+2024-10-05 05:49:50,868 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125202243860
+2024-10-05 05:49:51,999 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125202374932
+2024-10-05 05:49:52,656 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125202374932
+2024-10-05 05:49:53,791 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125202440468
+2024-10-05 05:49:54,349 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125202440468
+2024-10-05 05:49:55,535 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125202571540
+2024-10-05 05:49:56,158 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125202571540
+2024-10-05 05:49:57,218 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125202637076
+2024-10-05 05:49:57,969 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125202637076
+2024-10-05 05:49:59,029 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125202735380
+2024-10-05 05:49:59,739 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125202735380
+2024-10-05 05:50:00,813 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125202768148
+2024-10-05 05:50:01,487 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125202768148
+2024-10-05 05:50:02,593 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125202800916
+2024-10-05 05:50:03,224 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125202800916
+2024-10-05 05:50:04,759 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125202866452
+2024-10-05 05:50:05,415 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125202866452
+2024-10-05 05:50:07,449 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125202997524
+2024-10-05 05:50:08,001 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125202997524
+2024-10-05 05:50:09,090 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125203030292
+2024-10-05 05:50:09,737 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125203030292
+2024-10-05 05:50:11,037 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125203063060
+2024-10-05 05:50:11,662 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125203063060
+2024-10-05 05:50:12,780 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125203161364
+2024-10-05 05:50:13,469 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125203161364
+2024-10-05 05:50:14,633 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125203226900
+2024-10-05 05:50:15,263 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125203226900
+2024-10-05 05:50:16,492 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125203325204
+2024-10-05 05:50:17,164 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125203325204
+2024-10-05 05:50:18,254 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125203390740
+2024-10-05 05:50:18,914 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125203390740
+2024-10-05 05:50:20,329 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125203423508
+2024-10-05 05:50:21,046 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125203423508
+2024-10-05 05:50:22,207 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125203489044
+2024-10-05 05:50:22,941 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125203489044
+2024-10-05 05:50:24,002 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125203521812
+2024-10-05 05:50:24,674 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125203521812
+2024-10-05 05:50:25,802 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125203554580
+2024-10-05 05:50:27,267 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125203554580
+2024-10-05 05:50:28,806 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125203652884
+2024-10-05 05:50:29,406 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125203652884
+2024-10-05 05:50:30,694 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125203783956
+2024-10-05 05:50:31,416 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125203783956
+2024-10-05 05:50:32,587 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125203947796
+2024-10-05 05:50:33,435 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125203947796
+2024-10-05 05:50:34,666 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125204046100
+2024-10-05 05:50:35,382 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125204046100
+2024-10-05 05:50:36,508 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125204144404
+2024-10-05 05:50:37,995 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125204144404
+2024-10-05 05:50:39,065 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125204177172
+2024-10-05 05:50:39,885 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125204177172
+2024-10-05 05:50:41,217 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125204242708
+2024-10-05 05:50:41,935 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125204242708
+2024-10-05 05:50:43,318 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125204341012
+2024-10-05 05:50:43,981 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125204341012
+2024-10-05 05:50:45,622 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125204373780
+2024-10-05 05:50:46,441 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125204373780
+2024-10-05 05:50:47,773 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125204406548
+2024-10-05 05:50:48,386 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125204406548
+2024-10-05 05:50:49,617 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125204439316
+2024-10-05 05:50:50,330 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125204439316
+2024-10-05 05:50:51,561 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125204570388
+2024-10-05 05:50:52,200 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125204570388
+2024-10-05 05:50:53,299 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125204635924
+2024-10-05 05:50:53,953 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125204635924
+2024-10-05 05:50:55,553 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125204734228
+2024-10-05 05:50:56,270 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125204734228
+2024-10-05 05:50:57,499 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125204799764
+2024-10-05 05:50:58,122 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125204799764
+2024-10-05 05:50:59,449 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125204898068
+2024-10-05 05:51:00,169 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125204898068
+2024-10-05 05:51:01,289 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125204963604
+2024-10-05 05:51:02,007 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125204963604
+2024-10-05 05:51:03,338 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125205094676
+2024-10-05 05:51:04,054 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125205094676
+2024-10-05 05:51:05,119 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125205192980
+2024-10-05 05:51:05,794 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125205192980
+2024-10-05 05:51:06,959 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125205258516
+2024-10-05 05:51:07,533 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125205258516
+2024-10-05 05:51:08,762 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125205291284
+2024-10-05 05:51:09,478 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125205291284
+2024-10-05 05:51:10,606 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125205324052
+2024-10-05 05:51:11,322 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125205324052
+2024-10-05 05:51:12,441 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125205356820
+2024-10-05 05:51:13,013 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125205356820
+2024-10-05 05:51:14,294 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125205389588
+2024-10-05 05:51:14,928 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125205389588
+2024-10-05 05:51:16,957 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125205487892
+2024-10-05 05:51:17,612 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125205487892
+2024-10-05 05:51:18,678 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125205586196
+2024-10-05 05:51:19,414 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125205586196
+2024-10-05 05:51:20,745 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125205618964
+2024-10-05 05:51:21,461 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125205618964
+2024-10-05 05:51:22,796 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125205651732
+2024-10-05 05:51:24,226 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125205651732
+2024-10-05 05:51:25,408 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125205684500
+2024-10-05 05:51:26,070 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125205684500
+2024-10-05 05:51:27,301 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125205750036
+2024-10-05 05:51:27,939 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125205750036
+2024-10-05 05:51:29,041 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125205848340
+2024-10-05 05:51:29,654 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125205848340
+2024-10-05 05:51:30,885 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125205913876
+2024-10-05 05:51:31,611 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125205913876
+2024-10-05 05:51:32,727 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125205979412
+2024-10-05 05:51:33,398 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125205979412
+2024-10-05 05:51:34,982 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125206044948
+2024-10-05 05:51:35,798 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125206044948
+2024-10-05 05:51:37,028 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125206110484
+2024-10-05 05:51:37,648 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125206110484
+2024-10-05 05:51:38,731 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125206208788
+2024-10-05 05:51:39,383 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125206208788
+2024-10-05 05:51:40,610 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125206241556
+2024-10-05 05:51:41,231 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125206241556
+2024-10-05 05:51:42,455 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125206274324
+2024-10-05 05:51:43,171 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125206274324
+2024-10-05 05:51:44,604 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125206372628
+2024-10-05 05:51:45,219 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125206372628
+2024-10-05 05:51:46,344 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125206438164
+2024-10-05 05:51:46,973 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125206438164
+2024-10-05 05:51:48,087 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125206503700
+2024-10-05 05:51:48,802 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125206503700
+2024-10-05 05:51:50,033 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125206700308
+2024-10-05 05:51:50,709 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125206700308
+2024-10-05 05:51:51,978 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125206798612
+2024-10-05 05:51:53,641 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125206798612
+2024-10-05 05:51:54,926 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125206864148
+2024-10-05 05:51:55,537 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125206864148
+2024-10-05 05:51:56,770 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125206896916
+2024-10-05 05:51:57,410 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125206896916
+2024-10-05 05:51:58,530 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125206929684
+2024-10-05 05:51:59,248 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125206929684
+2024-10-05 05:52:01,195 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125206962452
+2024-10-05 05:52:01,896 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125206962452
+2024-10-05 05:52:03,038 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125207027988
+2024-10-05 05:52:03,640 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125207027988
+2024-10-05 05:52:04,677 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125207093524
+2024-10-05 05:52:05,394 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125207093524
+2024-10-05 05:52:06,725 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125207191828
+2024-10-05 05:52:07,441 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125207191828
+2024-10-05 05:52:08,873 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125207257364
+2024-10-05 05:52:09,590 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125207257364
+2024-10-05 05:52:10,729 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125207355668
+2024-10-05 05:52:11,434 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125207355668
+2024-10-05 05:52:12,533 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125207453972
+2024-10-05 05:52:13,175 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125207453972
+2024-10-05 05:52:14,473 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125207519508
+2024-10-05 05:52:15,430 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125207519508
+2024-10-05 05:52:16,561 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125207585044
+2024-10-05 05:52:17,269 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125207585044
+2024-10-05 05:52:18,398 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125207617812
+2024-10-05 05:52:19,114 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125207617812
+2024-10-05 05:52:20,446 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125207683348
+2024-10-05 05:52:21,264 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125207683348
+2024-10-05 05:52:22,494 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125207716116
+2024-10-05 05:52:23,210 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125207716116
+2024-10-05 05:52:24,543 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125207748884
+2024-10-05 05:52:25,227 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125207748884
+2024-10-05 05:52:27,214 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125207814420
+2024-10-05 05:52:27,773 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125207814420
+2024-10-05 05:52:29,048 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125207847188
+2024-10-05 05:52:29,764 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125207847188
+2024-10-05 05:52:30,891 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125207879956
+2024-10-05 05:52:31,523 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125207879956
+2024-10-05 05:52:33,144 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125207912724
+2024-10-05 05:52:33,860 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125207912724
+2024-10-05 05:52:35,015 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125207945492
+2024-10-05 05:52:35,600 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125207945492
+2024-10-05 05:52:36,736 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125208043796
+2024-10-05 05:52:37,442 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125208043796
+2024-10-05 05:52:39,288 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125208076564
+2024-10-05 05:52:39,902 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125208076564
+2024-10-05 05:52:40,931 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125208142100
+2024-10-05 05:52:41,540 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125208142100
+2024-10-05 05:52:42,615 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125208174868
+2024-10-05 05:52:43,283 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125208174868
+2024-10-05 05:52:44,510 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125208240404
+2024-10-05 05:52:45,241 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125208240404
+2024-10-05 05:52:46,454 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125208305940
+2024-10-05 05:52:47,178 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125208305940
+2024-10-05 05:52:48,504 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125208338708
+2024-10-05 05:52:49,220 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125208338708
+2024-10-05 05:52:50,363 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125208371476
+2024-10-05 05:52:50,962 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125208371476
+2024-10-05 05:52:52,190 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125208404244
+2024-10-05 05:52:52,808 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125208404244
+2024-10-05 05:52:53,829 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125208502548
+2024-10-05 05:52:54,496 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125208502548
+2024-10-05 05:52:55,636 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125208568084
+2024-10-05 05:52:56,388 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125208568084
+2024-10-05 05:52:57,559 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125208633620
+2024-10-05 05:52:58,175 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125208633620
+2024-10-05 05:52:59,350 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125208699156
+2024-10-05 05:53:00,018 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125208699156
+2024-10-05 05:53:01,203 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125208764692
+2024-10-05 05:53:01,815 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125208764692
+2024-10-05 05:53:03,260 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125208830228
+2024-10-05 05:53:03,966 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125208830228
+2024-10-05 05:53:05,005 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125208928532
+2024-10-05 05:53:05,624 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125208928532
+2024-10-05 05:53:06,757 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125208994068
+2024-10-05 05:53:07,446 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125208994068
+2024-10-05 05:53:09,392 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125209092372
+2024-10-05 05:53:10,110 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125209092372
+2024-10-05 05:53:11,542 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125209157908
+2024-10-05 05:53:12,260 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125209157908
+2024-10-05 05:53:13,387 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125209190676
+2024-10-05 05:53:14,103 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125209190676
+2024-10-05 05:53:15,232 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125209256212
+2024-10-05 05:53:15,878 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125209256212
+2024-10-05 05:53:16,979 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125209321748
+2024-10-05 05:53:17,603 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125209321748
+2024-10-05 05:53:18,771 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125209387284
+2024-10-05 05:53:19,429 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125209387284
+2024-10-05 05:53:20,658 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125209452820
+2024-10-05 05:53:21,379 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125209452820
+2024-10-05 05:53:22,580 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125209551124
+2024-10-05 05:53:23,219 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125209551124
+2024-10-05 05:53:24,344 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125209616660
+2024-10-05 05:53:24,958 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125209616660
+2024-10-05 05:53:26,189 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125209682196
+2024-10-05 05:53:26,824 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125209682196
+2024-10-05 05:53:27,937 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125209714964
+2024-10-05 05:53:28,732 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125209714964
+2024-10-05 05:53:29,871 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125209780500
+2024-10-05 05:53:30,591 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125209780500
+2024-10-05 05:53:31,717 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125209911572
+2024-10-05 05:53:32,433 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125209911572
+2024-10-05 05:53:33,662 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125209944340
+2024-10-05 05:53:34,396 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125209944340
+2024-10-05 05:53:35,506 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125210009876
+2024-10-05 05:53:36,221 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125210009876
+2024-10-05 05:53:37,351 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125210042644
+2024-10-05 05:53:37,964 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125210042644
+2024-10-05 05:53:39,192 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125210108180
+2024-10-05 05:53:39,908 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125210108180
+2024-10-05 05:53:41,255 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125210140948
+2024-10-05 05:53:41,957 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125210140948
+2024-10-05 05:53:42,996 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125210206484
+2024-10-05 05:53:43,593 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125210206484
+2024-10-05 05:53:44,927 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125210239252
+2024-10-05 05:53:45,565 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125210239252
+2024-10-05 05:53:46,766 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125210304788
+2024-10-05 05:53:47,486 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125210304788
+2024-10-05 05:53:48,621 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125210370324
+2024-10-05 05:53:49,329 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125210370324
+2024-10-05 05:53:50,588 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125210435860
+2024-10-05 05:53:51,317 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125210435860
+2024-10-05 05:53:52,564 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125210632468
+2024-10-05 05:53:53,221 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125210632468
+2024-10-05 05:53:54,348 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125210730772
+2024-10-05 05:53:55,767 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125210730772
+2024-10-05 05:53:56,908 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125210829076
+2024-10-05 05:53:58,327 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125210829076
+2024-10-05 05:53:59,639 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125210894612
+2024-10-05 05:54:00,254 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125210894612
+2024-10-05 05:54:01,619 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125211058452
+2024-10-05 05:54:02,216 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125211058452
+2024-10-05 05:54:03,288 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125211123988
+2024-10-05 05:54:03,973 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125211123988
+2024-10-05 05:54:05,936 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125211255060
+2024-10-05 05:54:06,533 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125211255060
+2024-10-05 05:54:07,762 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125211353364
+2024-10-05 05:54:08,324 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125211353364
+2024-10-05 05:54:09,401 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125211517204
+2024-10-05 05:54:10,015 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125211517204
+2024-10-05 05:54:11,251 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125211648276
+2024-10-05 05:54:12,063 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125211648276
+2024-10-05 05:54:13,292 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125211713812
+2024-10-05 05:54:13,906 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125211713812
+2024-10-05 05:54:14,937 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125211779348
+2024-10-05 05:54:15,646 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125211779348
+2024-10-05 05:54:17,593 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125211844884
+2024-10-05 05:54:18,207 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125211844884
+2024-10-05 05:54:19,436 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125211943188
+2024-10-05 05:54:20,017 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125211943188
+2024-10-05 05:54:21,177 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125212139796
+2024-10-05 05:54:21,893 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125212139796
+2024-10-05 05:54:23,379 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125212238100
+2024-10-05 05:54:23,980 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125212238100
+2024-10-05 05:54:25,171 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125212336404
+2024-10-05 05:54:25,785 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125212336404
+2024-10-05 05:54:26,911 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125212401940
+2024-10-05 05:54:27,627 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125212401940
+2024-10-05 05:54:29,576 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125212500244
+2024-10-05 05:58:52,346 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.0.102:8000
+2024-10-05 05:58:52,346 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2024-10-05 05:58:52,350 INFO werkzeug MainThread :  * Restarting with stat
+2024-10-05 05:58:52,905 WARNING werkzeug MainThread :  * Debugger is active!
+2024-10-05 05:58:52,905 INFO werkzeug MainThread :  * Debugger PIN: 107-546-318
+2024-10-05 05:58:56,774 INFO werkzeug Thread-2 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 05:58:56] "GET / HTTP/1.1" 200 -
+2024-10-05 05:59:08,863 INFO root Thread-3 (process_request_thread) : File saved to uploads/3423_Shampoo.csv
+2024-10-05 05:59:09,652 INFO root Thread-3 (process_request_thread) : Loaded 3423 records from uploads/3423_Shampoo.csv
+2024-10-05 05:59:09,659 INFO werkzeug Thread-3 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 05:59:09] "[35m[1mPOST /process_orders HTTP/1.1[0m" 202 -
+2024-10-05 05:59:10,816 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125222756628
+2024-10-05 05:59:11,476 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125222756628
+2024-10-05 05:59:12,280 INFO werkzeug Thread-4 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 05:59:12] "GET / HTTP/1.1" 200 -
+2024-10-05 05:59:12,650 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125222920468
+2024-10-05 05:59:13,326 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125222920468
+2024-10-05 05:59:14,497 INFO werkzeug Thread-5 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 05:59:14] "GET /task_status/1c0a5adc-6935-46ea-89c2-d87dbba0801d HTTP/1.1" 200 -
+2024-10-05 05:59:14,560 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125223018772
+2024-10-05 05:59:15,990 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125223018772
+2024-10-05 05:59:17,526 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125223280916
+2024-10-05 05:59:18,189 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125223280916
+2024-10-05 05:59:19,473 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125223411988
+2024-10-05 05:59:20,188 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125223411988
+2024-10-05 05:59:21,417 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125223477524
+2024-10-05 05:59:21,455 INFO werkzeug Thread-6 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 05:59:21] "GET / HTTP/1.1" 200 -
+2024-10-05 05:59:22,924 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125223477524
+2024-10-05 05:59:23,977 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125223641364
+2024-10-05 05:59:24,589 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125223641364
+2024-10-05 05:59:25,281 INFO werkzeug Thread-7 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 05:59:25] "GET /status/1c0a5adc-6935-46ea-89c2-d87dbba0801d HTTP/1.1" 200 -
+2024-10-05 05:59:25,718 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125223739668
+2024-10-05 05:59:26,434 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125223739668
+2024-10-05 05:59:27,593 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125223805204
+2024-10-05 05:59:28,277 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125223805204
+2024-10-05 05:59:29,381 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125223969044
+2024-10-05 05:59:30,120 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125223969044
+2024-10-05 05:59:31,248 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125224034580
+2024-10-05 05:59:31,965 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125224034580
+2024-10-05 05:59:33,193 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125224132884
+2024-10-05 05:59:33,910 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125224132884
+2024-10-05 05:59:35,094 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125224263956
+2024-10-05 05:59:35,752 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125224263956
+2024-10-05 05:59:36,887 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125224329492
+2024-10-05 05:59:37,601 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125224329492
+2024-10-05 05:59:38,723 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125224427796
+2024-10-05 05:59:39,474 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125224427796
+2024-10-05 05:59:40,568 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125224558868
+2024-10-05 05:59:41,180 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125224558868
+2024-10-05 05:59:42,364 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125224657172
+2024-10-05 05:59:43,121 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125224657172
+2024-10-05 05:59:44,200 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125224755476
+2024-10-05 05:59:44,867 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125224755476
+2024-10-05 05:59:46,098 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125224821012
+2024-10-05 05:59:46,813 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125224821012
+2024-10-05 05:59:48,144 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125224952084
+2024-10-05 05:59:48,757 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125224952084
+2024-10-05 05:59:49,988 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125225050388
+2024-10-05 05:59:50,703 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125225050388
+2024-10-05 05:59:51,792 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125225148692
+2024-10-05 05:59:52,445 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125225148692
+2024-10-05 05:59:53,645 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125225246996
+2024-10-05 05:59:54,287 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125225246996
+2024-10-05 05:59:55,352 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125225312532
+2024-10-05 05:59:56,028 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125225312532
+2024-10-05 05:59:57,158 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125225410836
+2024-10-05 05:59:57,965 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125225410836
+2024-10-05 05:59:59,203 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125225509140
+2024-10-05 05:59:59,918 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125225509140
+2024-10-05 06:00:01,150 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125225640212
+2024-10-05 06:00:01,763 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125225640212
+2024-10-05 06:00:08,010 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125225902356
+2024-10-05 06:00:08,726 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125225902356
+2024-10-05 06:00:09,827 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125225967892
+2024-10-05 06:00:10,673 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125225967892
+2024-10-05 06:00:11,901 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125226066196
+2024-10-05 06:00:12,530 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125226066196
+2024-10-05 06:00:13,643 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125226131732
+2024-10-05 06:00:14,359 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125226131732
+2024-10-05 06:00:24,372 ERROR root ThreadPoolExecutor-1_0 : Exception in processing order: HTTPSConnectionPool(host='3908a9-4f.myshopify.com', port=443): Max retries exceeded with url: /admin/api/2024-01/orders.json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7019183c0da0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2024-10-05 06:00:25,725 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125226754324
+2024-10-05 06:00:26,441 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125226754324
+2024-10-05 06:00:27,774 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125226885396
+2024-10-05 06:00:29,308 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125226885396
+2024-10-05 06:00:30,588 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125227082004
+2024-10-05 06:00:31,356 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125227082004
+2024-10-05 06:00:32,476 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125227180308
+2024-10-05 06:00:33,200 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125227180308
+2024-10-05 06:00:33,839 INFO werkzeug Thread-8 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 06:00:33] "GET /status/1c0a5adc-6935-46ea-89c2-d87dbba0801d HTTP/1.1" 200 -
+2024-10-05 06:00:34,430 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125227245844
+2024-10-05 06:00:34,724 INFO werkzeug Thread-9 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 06:00:34] "GET /status/1c0a5adc-6935-46ea-89c2-d87dbba0801d HTTP/1.1" 200 -
+2024-10-05 06:00:34,921 INFO werkzeug Thread-10 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 06:00:34] "GET /status/1c0a5adc-6935-46ea-89c2-d87dbba0801d HTTP/1.1" 200 -
+2024-10-05 06:00:35,113 INFO werkzeug Thread-11 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 06:00:35] "GET /status/1c0a5adc-6935-46ea-89c2-d87dbba0801d HTTP/1.1" 200 -
+2024-10-05 06:00:35,327 INFO werkzeug Thread-12 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 06:00:35] "GET /status/1c0a5adc-6935-46ea-89c2-d87dbba0801d HTTP/1.1" 200 -
+2024-10-05 06:00:35,351 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125227245844
+2024-10-05 06:00:35,503 INFO werkzeug Thread-13 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 06:00:35] "GET /status/1c0a5adc-6935-46ea-89c2-d87dbba0801d HTTP/1.1" 200 -
+2024-10-05 06:00:36,784 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125227442452
+2024-10-05 06:00:37,912 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125227442452
+2024-10-05 06:00:41,310 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.0.102:8000
+2024-10-05 06:00:41,310 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2024-10-05 06:00:41,314 INFO werkzeug MainThread :  * Restarting with stat
+2024-10-05 06:00:41,914 WARNING werkzeug MainThread :  * Debugger is active!
+2024-10-05 06:00:41,914 INFO werkzeug MainThread :  * Debugger PIN: 107-546-318
+2024-10-05 06:00:51,587 INFO root Thread-2 (process_request_thread) : File saved to uploads/3423_Shampoo.csv
+2024-10-05 06:00:52,361 INFO root Thread-2 (process_request_thread) : Loaded 3423 records from uploads/3423_Shampoo.csv
+2024-10-05 06:00:52,382 INFO werkzeug Thread-2 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 06:00:52] "[35m[1mPOST /process_orders HTTP/1.1[0m" 202 -
+2024-10-05 06:00:53,681 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125228130580
+2024-10-05 06:00:54,294 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125228130580
+2024-10-05 06:00:55,493 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125228228884
+2024-10-05 06:00:56,138 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125228228884
+2024-10-05 06:00:57,572 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125228359956
+2024-10-05 06:00:58,288 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125228359956
+2024-10-05 06:00:59,351 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125228523796
+2024-10-05 06:01:00,029 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125228523796
+2024-10-05 06:01:01,259 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125228589332
+2024-10-05 06:01:01,920 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125228589332
+2024-10-05 06:01:03,204 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125228720404
+2024-10-05 06:01:03,818 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125228720404
+2024-10-05 06:01:04,945 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125228818708
+2024-10-05 06:01:05,654 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125228818708
+2024-10-05 06:01:06,293 INFO werkzeug Thread-3 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 06:01:06] "GET /status/c38aafa1-7921-465f-a6f5-c262b531b554 HTTP/1.1" 200 -
+2024-10-05 06:01:06,890 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125228917012
+2024-10-05 06:01:07,518 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125228917012
+2024-10-05 06:01:08,630 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125228982548
+2024-10-05 06:01:09,449 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125228982548
+2024-10-05 06:01:11,294 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125229080852
+2024-10-05 06:01:12,010 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125229080852
+2024-10-05 06:01:13,240 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125229211924
+2024-10-05 06:01:13,886 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125229211924
+2024-10-05 06:01:15,083 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125229310228
+2024-10-05 06:01:15,901 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125229310228
+2024-10-05 06:01:17,132 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125229408532
+2024-10-05 06:01:17,948 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125229408532
+2024-10-05 06:01:19,190 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125229572372
+2024-10-05 06:01:19,894 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125229572372
+2024-10-05 06:01:21,076 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125229605140
+2024-10-05 06:01:21,727 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125229605140
+2024-10-05 06:01:23,069 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125229736212
+2024-10-05 06:01:23,786 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125229736212
+2024-10-05 06:01:25,015 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125229834516
+2024-10-05 06:01:25,631 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125229834516
+2024-10-05 06:01:26,707 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125229932820
+2024-10-05 06:01:27,370 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125229932820
+2024-10-05 06:01:28,700 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125230063892
+2024-10-05 06:01:29,624 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125230063892
+2024-10-05 06:01:30,750 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125230227732
+2024-10-05 06:01:32,183 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125230227732
+2024-10-05 06:01:33,310 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125230391572
+2024-10-05 06:01:34,026 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125230391572
+2024-10-05 06:01:35,256 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125230489876
+2024-10-05 06:01:35,868 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125230489876
+2024-10-05 06:01:37,201 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125230588180
+2024-10-05 06:01:37,917 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125230588180
+2024-10-05 06:01:39,066 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125230686484
+2024-10-05 06:01:39,760 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125230686484
+2024-10-05 06:01:40,992 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125230752020
+2024-10-05 06:01:41,710 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125230752020
+2024-10-05 06:01:42,937 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125230915860
+2024-10-05 06:01:43,549 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125230915860
+2024-10-05 06:01:44,708 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125230981396
+2024-10-05 06:01:45,367 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125230981396
+2024-10-05 06:01:46,533 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125231046932
+2024-10-05 06:01:47,441 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125231046932
+2024-10-05 06:01:48,568 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125231112468
+2024-10-05 06:01:49,386 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125231112468
+2024-10-05 06:01:50,516 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125231210772
+2024-10-05 06:01:51,230 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125231210772
+2024-10-05 06:01:52,357 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125231309076
+2024-10-05 06:01:52,970 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125231309076
+2024-10-05 06:01:54,200 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125231374612
+2024-10-05 06:01:54,878 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125231374612
+2024-10-05 06:01:55,941 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125231440148
+2024-10-05 06:01:56,609 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125231440148
+2024-10-05 06:01:57,782 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125231538452
+2024-10-05 06:01:58,499 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125231538452
+2024-10-05 06:01:59,627 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125231669524
+2024-10-05 06:02:00,289 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125231669524
+2024-10-05 06:02:01,882 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125231735060
+2024-10-05 06:02:02,599 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125231735060
+2024-10-05 06:02:03,827 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125231866132
+2024-10-05 06:02:04,440 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125231866132
+2024-10-05 06:02:05,012 INFO werkzeug Thread-5 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 06:02:05] "GET /status/c38aafa1-7921-465f-a6f5-c262b531b554 HTTP/1.1" 200 -
+2024-10-05 06:02:05,502 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125231964436
+2024-10-05 06:02:06,001 INFO werkzeug Thread-6 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 06:02:06] "GET /status/c38aafa1-7921-465f-a6f5-c262b531b554 HTTP/1.1" 200 -
+2024-10-05 06:02:06,193 INFO werkzeug Thread-7 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 06:02:06] "GET /status/c38aafa1-7921-465f-a6f5-c262b531b554 HTTP/1.1" 200 -
+2024-10-05 06:02:06,281 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125231964436
+2024-10-05 06:02:06,375 INFO werkzeug Thread-8 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 06:02:06] "GET /status/c38aafa1-7921-465f-a6f5-c262b531b554 HTTP/1.1" 200 -
+2024-10-05 06:02:07,410 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125232062740
+2024-10-05 06:02:08,125 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125232062740
+2024-10-05 06:02:09,253 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125232161044
+2024-10-05 06:02:09,971 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125232161044
+2024-10-05 06:02:11,097 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125232324884
+2024-10-05 06:02:11,506 ERROR root ThreadPoolExecutor-1_0 : Failed to create payment terms for order 6125232324884: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+2024-10-05 06:02:12,837 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125232423188
+2024-10-05 06:02:13,572 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125232423188
+2024-10-05 06:02:14,679 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125232455956
+2024-10-05 06:02:15,294 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125232455956
+2024-10-05 06:02:16,629 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125232652564
+2024-10-05 06:02:17,342 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125232652564
+2024-10-05 06:02:18,538 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125232750868
+2024-10-05 06:02:19,186 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125232750868
+2024-10-05 06:02:20,215 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125232881940
+2024-10-05 06:02:20,825 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125232881940
+2024-10-05 06:02:22,065 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125232947476
+2024-10-05 06:02:22,769 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125232947476
+2024-10-05 06:02:23,898 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125233013012
+2024-10-05 06:02:24,510 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125233013012
+2024-10-05 06:02:25,546 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125233078548
+2024-10-05 06:02:26,251 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125233078548
+2024-10-05 06:02:27,378 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125233176852
+2024-10-05 06:02:27,993 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125233176852
+2024-10-05 06:02:29,324 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125233275156
+2024-10-05 06:02:29,937 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125233275156
+2024-10-05 06:02:31,064 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125233373460
+2024-10-05 06:02:31,781 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125233373460
+2024-10-05 06:02:33,012 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125233438996
+2024-10-05 06:02:33,728 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125233438996
+2024-10-05 06:02:35,058 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125233504532
+2024-10-05 06:02:35,776 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125233504532
+2024-10-05 06:02:36,903 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125233602836
+2024-10-05 06:02:37,522 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125233602836
+2024-10-05 06:02:38,746 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125233668372
+2024-10-05 06:02:39,461 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125233668372
+2024-10-05 06:02:40,616 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125233799444
+2024-10-05 06:02:41,306 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125233799444
+2024-10-05 06:02:42,432 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125233963284
+2024-10-05 06:02:43,147 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125233963284
+2024-10-05 06:02:44,378 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125234028820
+2024-10-05 06:02:45,092 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125234028820
+2024-10-05 06:02:46,219 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125234192660
+2024-10-05 06:02:46,831 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125234192660
+2024-10-05 06:02:48,098 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125234290964
+2024-10-05 06:02:48,766 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125234290964
+2024-10-05 06:02:49,906 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125234356500
+2024-10-05 06:02:50,622 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125234356500
+2024-10-05 06:02:51,851 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125234553108
+2024-10-05 06:02:52,567 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125234553108
+2024-10-05 06:02:53,899 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125234618644
+2024-10-05 06:02:54,618 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125234618644
+2024-10-05 06:02:55,743 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125234749716
+2024-10-05 06:02:56,459 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125234749716
+2024-10-05 06:02:57,892 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125234848020
+2024-10-05 06:02:58,610 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125234848020
+2024-10-05 06:02:59,736 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125234979092
+2024-10-05 06:03:00,452 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125234979092
+2024-10-05 06:03:01,784 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125235044628
+2024-10-05 06:03:02,501 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125235044628
+2024-10-05 06:03:03,632 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125235175700
+2024-10-05 06:03:04,344 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125235175700
+2024-10-05 06:03:05,575 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125235274004
+2024-10-05 06:03:06,297 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125235274004
+2024-10-05 06:03:07,466 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125235339540
+2024-10-05 06:03:08,133 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125235339540
+2024-10-05 06:03:09,260 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125235470612
+2024-10-05 06:03:09,978 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125235470612
+2024-10-05 06:03:11,104 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125235568916
+2024-10-05 06:03:11,720 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125235568916
+2024-10-05 06:03:12,846 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125235634452
+2024-10-05 06:03:13,457 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125235634452
+2024-10-05 06:03:14,689 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125235699988
+2024-10-05 06:03:15,403 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125235699988
+2024-10-05 06:03:16,735 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125235863828
+2024-10-05 06:03:17,451 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125235863828
+2024-10-05 06:03:19,457 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125235962132
+2024-10-05 06:03:20,083 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125235962132
+2024-10-05 06:03:21,181 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125236060436
+2024-10-05 06:03:21,856 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125236060436
+2024-10-05 06:03:22,984 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125236191508
+2024-10-05 06:03:23,581 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125236191508
+2024-10-05 06:03:24,827 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125236388116
+2024-10-05 06:03:25,437 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125236388116
+2024-10-05 06:03:26,568 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125236453652
+2024-10-05 06:03:27,282 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125236453652
+2024-10-05 06:03:28,409 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125236519188
+2024-10-05 06:03:29,248 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125236519188
+2024-10-05 06:03:30,480 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125236617492
+2024-10-05 06:03:31,105 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125236617492
+2024-10-05 06:03:32,237 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125236683028
+2024-10-05 06:03:32,885 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125236683028
+2024-10-05 06:03:33,940 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125236781332
+2024-10-05 06:03:34,663 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125236781332
+2024-10-05 06:03:35,823 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125236879636
+2024-10-05 06:03:36,446 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125236879636
+2024-10-05 06:03:37,627 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125236977940
+2024-10-05 06:03:38,314 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125236977940
+2024-10-05 06:03:39,401 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125237043476
+2024-10-05 06:03:40,029 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125237043476
+2024-10-05 06:03:41,417 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125237272852
+2024-10-05 06:03:42,132 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125237272852
+2024-10-05 06:03:43,348 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125237338388
+2024-10-05 06:03:43,894 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125237338388
+2024-10-05 06:03:45,103 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125237403924
+2024-10-05 06:03:45,712 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125237403924
+2024-10-05 06:03:46,843 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125237502228
+2024-10-05 06:03:47,559 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125237502228
+2024-10-05 06:03:48,806 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125237600532
+2024-10-05 06:03:49,370 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125237600532
+2024-10-05 06:03:50,386 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125237698836
+2024-10-05 06:03:51,143 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125237698836
+2024-10-05 06:03:52,269 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125237829908
+2024-10-05 06:03:53,088 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125237829908
+2024-10-05 06:03:54,216 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125237928212
+2024-10-05 06:03:54,933 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125237928212
+2024-10-05 06:03:56,162 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125238059284
+2024-10-05 06:03:56,797 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125238059284
+2024-10-05 06:03:57,873 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125238190356
+2024-10-05 06:03:58,542 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125238190356
+2024-10-05 06:03:59,848 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125238255892
+2024-10-05 06:04:00,564 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125238255892
+2024-10-05 06:04:01,896 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125238321428
+2024-10-05 06:04:02,612 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125238321428
+2024-10-05 06:04:03,842 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125238386964
+2024-10-05 06:04:04,681 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125238386964
+2024-10-05 06:04:05,889 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125238452500
+2024-10-05 06:04:06,605 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125238452500
+2024-10-05 06:04:07,732 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125238550804
+2024-10-05 06:04:08,322 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125238550804
+2024-10-05 06:04:09,508 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125238616340
+2024-10-05 06:04:10,190 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125238616340
+2024-10-05 06:04:11,358 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125238714644
+2024-10-05 06:04:11,952 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125238714644
+2024-10-05 06:04:13,027 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125238780180
+2024-10-05 06:04:13,676 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125238780180
+2024-10-05 06:04:15,575 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125238845716
+2024-10-05 06:04:16,228 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125238845716
+2024-10-05 06:04:17,240 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125238911252
+2024-10-05 06:04:17,900 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125238911252
+2024-10-05 06:04:18,962 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125238976788
+2024-10-05 06:04:19,614 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125238976788
+2024-10-05 06:04:21,407 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125239075092
+2024-10-05 06:04:21,969 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125239075092
+2024-10-05 06:04:23,081 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125239173396
+2024-10-05 06:04:23,694 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125239173396
+2024-10-05 06:04:24,806 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125239238932
+2024-10-05 06:04:25,367 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125239238932
+2024-10-05 06:04:26,382 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125239337236
+2024-10-05 06:04:27,752 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125239337236
+2024-10-05 06:04:28,874 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125239501076
+2024-10-05 06:04:29,467 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125239501076
+2024-10-05 06:04:30,583 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125239566612
+2024-10-05 06:04:31,231 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125239566612
+2024-10-05 06:04:32,410 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125239664916
+2024-10-05 06:04:33,826 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125239664916
+2024-10-05 06:04:34,870 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125239795988
+2024-10-05 06:04:35,521 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125239795988
+2024-10-05 06:04:36,627 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125239927060
+2024-10-05 06:04:37,324 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125239927060
+2024-10-05 06:04:38,453 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125240025364
+2024-10-05 06:04:39,066 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125240025364
+2024-10-05 06:04:40,206 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125240123668
+2024-10-05 06:04:40,910 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125240123668
+2024-10-05 06:04:42,036 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125240254740
+2024-10-05 06:04:42,859 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125240254740
+2024-10-05 06:04:43,981 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125240353044
+2024-10-05 06:04:44,699 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125240353044
+2024-10-05 06:04:45,723 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125240418580
+2024-10-05 06:04:46,479 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125240418580
+2024-10-05 06:04:47,565 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125240484116
+2024-10-05 06:04:48,283 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125240484116
+2024-10-05 06:04:49,307 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125240615188
+2024-10-05 06:04:50,023 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125240615188
+2024-10-05 06:04:51,250 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125240680724
+2024-10-05 06:04:51,881 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125240680724
+2024-10-05 06:04:53,005 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125240811796
+2024-10-05 06:04:53,610 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125240811796
+2024-10-05 06:04:54,784 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125240844564
+2024-10-05 06:04:55,451 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125240844564
+2024-10-05 06:04:56,680 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125240942868
+2024-10-05 06:04:57,499 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125240942868
+2024-10-05 06:04:58,628 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125241041172
+2024-10-05 06:04:59,239 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125241041172
+2024-10-05 06:05:00,369 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125241172244
+2024-10-05 06:05:00,998 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125241172244
+2024-10-05 06:05:02,210 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125241336084
+2024-10-05 06:05:02,925 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125241336084
+2024-10-05 06:05:04,155 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125241467156
+2024-10-05 06:05:04,872 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125241467156
+2024-10-05 06:05:06,202 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125241565460
+2024-10-05 06:05:06,817 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125241565460
+2024-10-05 06:05:07,897 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125241663764
+2024-10-05 06:05:08,557 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125241663764
+2024-10-05 06:05:09,684 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125241729300
+2024-10-05 06:05:10,401 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125241729300
+2024-10-05 06:05:11,578 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125241794836
+2024-10-05 06:05:12,245 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125241794836
+2024-10-05 06:05:13,373 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125241860372
+2024-10-05 06:05:14,087 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125241860372
+2024-10-05 06:05:15,317 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125241958676
+2024-10-05 06:05:16,031 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125241958676
+2024-10-05 06:05:17,264 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125242024212
+2024-10-05 06:05:17,876 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125242024212
+2024-10-05 06:05:19,004 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125242122516
+2024-10-05 06:05:19,617 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125242122516
+2024-10-05 06:05:20,847 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125242188052
+2024-10-05 06:05:21,421 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125242188052
+2024-10-05 06:05:22,488 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125242253588
+2024-10-05 06:05:23,098 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125242253588
+2024-10-05 06:05:24,419 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125242351892
+2024-10-05 06:05:25,048 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125242351892
+2024-10-05 06:05:26,271 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125242515732
+2024-10-05 06:05:26,870 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125242515732
+2024-10-05 06:05:28,015 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125242581268
+2024-10-05 06:05:28,629 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125242581268
+2024-10-05 06:05:29,756 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125242646804
+2024-10-05 06:05:30,473 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125242646804
+2024-10-05 06:05:31,601 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125242712340
+2024-10-05 06:05:32,209 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125242712340
+2024-10-05 06:05:33,339 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125242810644
+2024-10-05 06:05:33,952 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125242810644
+2024-10-05 06:05:35,683 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125242908948
+2024-10-05 06:05:36,341 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125242908948
+2024-10-05 06:05:37,512 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125243007252
+2024-10-05 06:05:38,153 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125243007252
+2024-10-05 06:05:39,484 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125243203860
+2024-10-05 06:05:40,097 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125243203860
+2024-10-05 06:05:41,132 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125243367700
+2024-10-05 06:05:41,839 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125243367700
+2024-10-05 06:05:42,964 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125243433236
+2024-10-05 06:05:43,681 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125243433236
+2024-10-05 06:05:44,809 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125243531540
+2024-10-05 06:05:45,524 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125243531540
+2024-10-05 06:05:46,652 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125243597076
+2024-10-05 06:05:47,368 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125243597076
+2024-10-05 06:05:48,528 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125243662612
+2024-10-05 06:05:49,172 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125243662612
+2024-10-05 06:05:50,388 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125243793684
+2024-10-05 06:05:51,055 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125243793684
+2024-10-05 06:05:52,230 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125243957524
+2024-10-05 06:05:52,841 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125243957524
+2024-10-05 06:05:53,924 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125243990292
+2024-10-05 06:05:54,535 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125243990292
+2024-10-05 06:05:55,867 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125244055828
+2024-10-05 06:05:56,581 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125244055828
+2024-10-05 06:05:58,529 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125244186900
+2024-10-05 06:05:59,246 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125244186900
+2024-10-05 06:06:00,681 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125244285204
+2024-10-05 06:06:01,397 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125244285204
+2024-10-05 06:06:02,533 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125244416276
+2024-10-05 06:06:03,137 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125244416276
+2024-10-05 06:06:04,572 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125244547348
+2024-10-05 06:06:05,288 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125244547348
+2024-10-05 06:06:06,620 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125244678420
+2024-10-05 06:06:07,499 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125244678420
+2024-10-05 06:06:08,567 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125244743956
+2024-10-05 06:06:09,282 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125244743956
+2024-10-05 06:06:10,408 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125244875028
+2024-10-05 06:06:10,620 INFO werkzeug Thread-9 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 06:06:10] "GET / HTTP/1.1" 200 -
+2024-10-05 06:06:11,124 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125244875028
+2024-10-05 06:06:12,250 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125244973332
+2024-10-05 06:06:12,887 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125244973332
+2024-10-05 06:06:14,203 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125245071636
+2024-10-05 06:06:14,913 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125245071636
+2024-10-05 06:06:15,302 INFO werkzeug Thread-10 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 06:06:15] "[33mGET /status/af64b4f8-7562-44a5-a5d0-6ea08f2e210c HTTP/1.1[0m" 404 -
+2024-10-05 06:06:15,937 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125245268244
+2024-10-05 06:06:16,653 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125245268244
+2024-10-05 06:06:17,781 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125245366548
+2024-10-05 06:06:18,395 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125245366548
+2024-10-05 06:06:18,628 INFO werkzeug Thread-11 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 06:06:18] "GET / HTTP/1.1" 200 -
+2024-10-05 06:06:19,828 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125245432084
+2024-10-05 06:06:20,546 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125245432084
+2024-10-05 06:06:21,733 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125245595924
+2024-10-05 06:06:22,493 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125245595924
+2024-10-05 06:06:23,646 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125245694228
+2024-10-05 06:06:24,260 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125245694228
+2024-10-05 06:06:25,464 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125245759764
+2024-10-05 06:06:26,178 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125245759764
+2024-10-05 06:06:27,306 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125245825300
+2024-10-05 06:06:27,777 INFO werkzeug Thread-12 (process_request_thread) : 192.168.0.102 - - [05/Oct/2024 06:06:27] "GET /status/c38aafa1-7921-465f-a6f5-c262b531b554 HTTP/1.1" 200 -
+2024-10-05 06:06:27,933 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125245825300
+2024-10-05 06:06:29,150 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125245890836
+2024-10-05 06:06:29,864 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125245890836
+2024-10-05 06:06:31,094 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125246021908
+2024-10-05 06:06:32,015 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125246021908
+2024-10-05 06:06:33,041 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125246152980
+2024-10-05 06:06:33,755 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125246152980
+2024-10-05 06:06:34,989 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125246284052
+2024-10-05 06:06:35,701 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125246284052
+2024-10-05 06:06:37,135 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125246415124
+2024-10-05 06:06:37,750 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125246415124
+2024-10-05 06:06:38,877 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125246513428
+2024-10-05 06:06:39,593 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125246513428
+2024-10-05 06:06:40,720 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125246611732
+2024-10-05 06:06:41,524 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125246611732
+2024-10-05 06:06:42,561 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125246710036
+2024-10-05 06:06:43,279 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125246710036
+2024-10-05 06:06:44,406 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125246775572
+2024-10-05 06:06:45,071 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125246775572
+2024-10-05 06:06:46,186 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125246841108
+2024-10-05 06:06:46,782 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125246841108
+2024-10-05 06:06:47,890 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125246939412
+2024-10-05 06:06:48,807 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125246939412
+2024-10-05 06:06:49,808 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125247037716
+2024-10-05 06:06:50,415 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125247037716
+2024-10-05 06:06:51,539 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125247234324
+2024-10-05 06:06:52,139 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125247234324
+2024-10-05 06:06:53,464 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125247332628
+2024-10-05 06:06:54,040 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125247332628
+2024-10-05 06:06:55,116 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125247430932
+2024-10-05 06:06:55,763 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125247430932
+2024-10-05 06:06:56,796 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125247496468
+2024-10-05 06:06:57,404 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125247496468
+2024-10-05 06:06:58,609 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125247594772
+2024-10-05 06:06:59,340 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125247594772
+2024-10-05 06:07:00,506 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125247824148
+2024-10-05 06:07:01,145 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125247824148
+2024-10-05 06:07:02,386 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125247955220
+2024-10-05 06:07:03,018 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125247955220
+2024-10-05 06:07:04,080 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125248053524
+2024-10-05 06:07:04,670 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125248053524
+2024-10-05 06:07:05,808 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125248119060
+2024-10-05 06:07:06,433 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125248119060
+2024-10-05 06:07:07,533 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125248282900
+2024-10-05 06:07:08,321 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125248282900
+2024-10-05 06:07:09,466 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125248381204
+2024-10-05 06:07:10,108 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125248381204
+2024-10-05 06:07:11,234 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125248479508
+2024-10-05 06:07:11,951 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125248479508
+2024-10-05 06:07:13,408 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125248610580
+2024-10-05 06:07:14,032 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125248610580
+2024-10-05 06:07:15,127 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125248676116
+2024-10-05 06:07:15,842 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125248676116
+2024-10-05 06:07:16,970 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125248774420
+2024-10-05 06:07:17,584 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125248774420
+2024-10-05 06:07:18,915 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125248872724
+2024-10-05 06:07:19,631 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125248872724
+2024-10-05 06:07:20,724 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125248938260
+2024-10-05 06:07:21,373 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125248938260
+2024-10-05 06:07:22,580 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125249036564
+2024-10-05 06:07:23,214 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125249036564
+2024-10-05 06:07:24,396 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125249134868
+2024-10-05 06:07:25,060 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125249134868
+2024-10-05 06:07:26,377 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125249265940
+2024-10-05 06:07:27,113 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125249265940
+2024-10-05 06:07:28,232 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125249397012
+2024-10-05 06:07:28,950 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125249397012
+2024-10-05 06:07:30,148 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125249495316
+2024-10-05 06:07:30,793 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125249495316
+2024-10-05 06:07:32,037 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125249560852
+2024-10-05 06:07:32,841 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125249560852
+2024-10-05 06:07:33,968 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125249659156
+2024-10-05 06:07:34,573 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125249659156
+2024-10-05 06:07:35,639 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125249724692
+2024-10-05 06:07:37,142 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125249724692
+2024-10-05 06:07:38,575 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125249855764
+2024-10-05 06:07:39,292 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125249855764
+2024-10-05 06:07:40,455 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125249954068
+2024-10-05 06:07:41,136 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125249954068
+2024-10-05 06:07:42,193 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125250052372
+2024-10-05 06:07:42,875 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125250052372
+2024-10-05 06:07:44,004 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125250117908
+2024-10-05 06:07:44,615 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125250117908
+2024-10-05 06:07:45,744 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125250183444
+2024-10-05 06:07:46,357 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125250183444
+2024-10-05 06:07:47,792 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125250248980
+2024-10-05 06:07:48,610 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125250248980
+2024-10-05 06:07:50,250 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125250380052
+2024-10-05 06:07:50,966 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125250380052
+2024-10-05 06:07:52,093 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125250543892
+2024-10-05 06:07:52,716 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125250543892
+2024-10-05 06:07:54,039 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125250674964
+2024-10-05 06:07:54,756 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125250674964
+2024-10-05 06:07:55,983 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125250871572
+2024-10-05 06:07:56,639 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125250871572
+2024-10-05 06:07:57,855 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125251035412
+2024-10-05 06:07:58,544 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125251035412
+2024-10-05 06:07:59,589 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125251199252
+2024-10-05 06:08:00,284 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125251199252
+2024-10-05 06:08:01,676 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125251330324
+2024-10-05 06:08:02,435 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125251330324
+2024-10-05 06:08:04,380 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125251428628
+2024-10-05 06:08:05,095 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125251428628
+2024-10-05 06:08:06,222 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125251526932
+2024-10-05 06:08:07,043 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125251526932
+2024-10-05 06:08:08,377 INFO root ThreadPoolExecutor-1_0 : Order created successfully: 6125251625236
+2024-10-05 06:08:09,797 INFO root ThreadPoolExecutor-1_0 : Payment terms created for order 6125251625236
+2024-10-18 12:07:18,085 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.16.97.227:8000
+2024-10-18 12:07:18,085 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2024-10-18 12:07:18,089 INFO werkzeug MainThread :  * Restarting with stat
+2024-10-18 12:07:18,661 WARNING werkzeug MainThread :  * Debugger is active!
+2024-10-18 12:07:18,662 INFO werkzeug MainThread :  * Debugger PIN: 107-546-318
+2024-10-18 12:07:23,633 INFO werkzeug Thread-2 (process_request_thread) : 172.16.97.227 - - [18/Oct/2024 12:07:23] "[32mGET / HTTP/1.1[0m" 302 -
+2024-10-18 12:07:23,643 INFO werkzeug Thread-3 (process_request_thread) : 172.16.97.227 - - [18/Oct/2024 12:07:23] "GET /login HTTP/1.1" 200 -
+2024-10-18 12:07:23,670 INFO werkzeug Thread-4 (process_request_thread) : 172.16.97.227 - - [18/Oct/2024 12:07:23] "[33mGET /static/css/admin_login.css HTTP/1.1[0m" 404 -
+2024-10-18 12:07:23,830 INFO werkzeug Thread-5 (process_request_thread) : 172.16.97.227 - - [18/Oct/2024 12:07:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-18 12:07:37,130 INFO werkzeug Thread-6 (process_request_thread) : 172.16.97.227 - - [18/Oct/2024 12:07:37] "POST /login HTTP/1.1" 200 -
+2024-10-18 12:07:37,150 INFO werkzeug Thread-7 (process_request_thread) : 172.16.97.227 - - [18/Oct/2024 12:07:37] "[33mGET /static/css/admin_login.css HTTP/1.1[0m" 404 -
+2024-10-18 12:07:47,185 INFO werkzeug Thread-8 (process_request_thread) : 172.16.97.227 - - [18/Oct/2024 12:07:47] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-10-18 12:07:47,194 INFO werkzeug Thread-9 (process_request_thread) : 172.16.97.227 - - [18/Oct/2024 12:07:47] "GET / HTTP/1.1" 200 -
